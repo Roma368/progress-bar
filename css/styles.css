@@ -48,6 +48,7 @@ body{
     border-radius: 50%;
     cursor: default;
     color: #922c8a;
+    background: conic-gradient(#922c8a 0 50%, #27282b 50% 100%);/* this value*/
 }
 
 #circle-inner{
