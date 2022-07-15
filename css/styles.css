@@ -24,7 +24,6 @@ body{
     -webkit-appearance: none;
     background: #3f133b;
     border-radius: 20px;
-    transform: 0.5s;
 }
 
 .slider:hover{
@@ -49,6 +48,8 @@ body{
     border-radius: 50%;
     cursor: default;
     color: #922c8a;
+    box-shadow: 0 0px 20px;
+    transition: 0.5s;
 }
 
 #circle-inner{
@@ -59,12 +60,17 @@ body{
     height: 190px;
     border-radius: 50%;
     background: #1d1e22;
-    font-size: 20px;
-    transition: 0.5s;
+    font-size: 25px;
+    transition: 0.8s;
 }
 
 #circle:hover #circle-inner{
-    width: 170px;
-    height: 170px;
+    width: 155px;
+    height: 155px;
     font-size: 30px;
+    box-shadow: 0 0 25px #1d1e22;
+}
+
+#circle:hover{
+    box-shadow: 0 0px 40px;
 }
